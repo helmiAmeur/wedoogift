@@ -57,13 +57,13 @@ Jessica receives a Meal distribution from Apple with the amount of $50 on 01/01/
 
 ![img_1.png](img_1.png)
 
-####install 
+#### install 
 mvn clean install
 
-####run
+#### run
 java -jar target/*.jar
 
-####Application test
+#### Application test
 * Get user balance example :
 
 ```
@@ -84,7 +84,7 @@ curl --location --request POST 'http://localhost:8082/wedoogift/api/deposits' \
    
 }'
 ``` 
-####We can add : 
+#### We can add : 
 * Security layer : spring security 
 * AOP Loggin
 * DTO and mapstruct
